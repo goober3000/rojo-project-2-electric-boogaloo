@@ -1,0 +1,48 @@
+
+ {  "name": "rojo project 1",
+  "tree": 
+   { "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      
+      "Server": {
+        "$path": "src/server"
+        
+        
+        }
+      },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+     "StarterPlayer": {
+      "StarterCharacterScripts":{
+        "Player": {
+          "$path": "src/player"
+        }
+      }
+     },
+    "Workspace": {
+      
+        },
+     
+  
+     
+    
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+   }
+  }
